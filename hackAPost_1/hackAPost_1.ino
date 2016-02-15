@@ -161,10 +161,10 @@ bool readAndParseLine() {
         valGPSTimestamp = strtod(command, NULL);
         break;
       case 1:
-        valGPSLatitude = strtod(command, NULL);
+        valGPSLongitude = strtod(command, NULL);
         break;
       case 2:
-        valGPSLongitude = strtod(command, NULL);
+        valGPSLatitude = strtod(command, NULL);
         break;
       case 3:
         valGPSAltitude = strtod(command, NULL);
